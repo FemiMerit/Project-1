@@ -1,0 +1,147 @@
+.navbar {
+  background-color: #000 !important;
+  position: fixed !important;
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+  width: 100% !important;
+  z-index: 1 !important;
+
+}
+
+.nav-link{
+  color:beige;
+}
+
+body{
+  background-color: black !important;
+}
+
+
+.banner {
+  text-align: center;
+  background-image: url('images/background pic.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 100px;
+  opacity: 0.8;
+}
+
+.banner {
+  line-height: 1.5;
+}
+
+
+.profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  border: 3px solid rgb(255, 255, 255);
+  transition: all .5s;
+  
+}
+
+
+
+.banner .profile-image:hover {
+  transform: scale(1.2) rotate(-20deg);
+}
+
+.tag{
+  background-color: rgba(200,200,200,0.5) ;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.title{
+  background-color: #222;
+  color: white;
+  opacity: 0.8;
+}
+
+.intro-left {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 10;
+  padding-left: 20px;
+  padding-right: 730px;
+  padding-top: 60px;
+  text-align: left;
+  padding-bottom: 70px;
+  
+}
+
+.image-right{
+  float: right;
+  width: 620px;
+  height: 320px;
+  padding-right:15px;
+  padding-top:60px;
+  border-radius: 5%;
+
+}
+
+
+.education-right{
+  padding-top: 80px;
+  margin: 15px;
+  font-weight: 10;
+  border-top: 3px dashed rgba(220, 220, 220, 0.386);
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 700px;  
+  padding-bottom:65px;
+  
+}
+
+#position1{
+  display: inline-block;
+}
+#position2{
+  display: inline-block;
+}
+#position3{
+  display: inline-block;
+}
+
+.image-left{
+  float: left;
+  width: 620px;
+  height: 320px;
+  padding-top: 50px;
+  padding-left:20px;
+  border-radius: 5%;
+}
+
+#employment{
+  margin: 15px;
+  border-top: 3px dashed rgba(220, 220, 220, 0.386);
+  padding: 20px;
+}
+
+.employment-entry{
+
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 10;
+  padding-top: 30px;
+  padding-left:15px;
+  padding-right: 300px;
+
+}
+
+.employment-image{
+ 
+  width: 150px;
+  height: auto; 
+  border-radius: 5px;
+
+
+}
+
+
+
+
+
+
+
